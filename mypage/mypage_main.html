@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no">
+        <meta name="format-detection" content="telephone=no">
+
+        <title>Konnect</title>
+
+        <!-- SEO meta tag -->
+        <meta name="apple-mobile-web-app-title" content=""> 
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"> 
+        <meta name="title" content="Konnect">
+        <meta name="description" content="">
+        <meta name="keywords" content="Konnect Web3, Konnect, KCT, kct, konnectkct, NFT, nft, Duman, DUMAN, 듀먼, 커넥트, 커넥트 웹3">
+        <meta name="robots" content="index, follow">
+        <meta name="language" content="English">
+        <meta name="author" content="KCT-Konnect">
+        <!-- // SEO meta tag -->
+
+        <!-- Open Graph -->
+        <meta property="og:url" content="">
+        <meta property="og:image" content="">
+        <meta property="og:type" content="">
+        <meta property="og:site_name" content="">
+        <meta property="og:locale" content="">
+        <meta property="og:title" content="">
+        <meta property="og:description" content="">
+        <meta property="og:country-name" content="">
+        <!-- // Open Graph -->
+
+        <!-- Icon & Favicon -->
+        <link rel="apple-touch-icon" sizes="180x180" href="../img/favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="../img/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="../img/favicon/favicon-16x16.png">
+        <link rel="manifest" href="../img/favicon/site.webmanifest">
+        <link rel="mask-icon" href="../img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#ffffff">
+        <!-- // Icon & Favicon -->
+
+        <link rel="stylesheet" href="../css/common.css">
+        
+    </head>
+
+    <body class="body_bg_bk"> 
+        <div class="wrap">
+            <!-- // Header -->
+            <header id="header" class="header sub_header"></header>
+            <!-- // Content -->                 
+            <main id="content" class="sub_main_content">
+                <section class="section section_sub_main">
+                    <div class="my_info">    
+                        <div class="d_flex align_center content_center gap4">
+                            <div class="badge_grade">
+                                <img src="../img/temp/grade_e.png" alt="grade_e"/> 
+                            </div>
+                            <a href="../mypage/mypage_edit.html">
+                                <h1 class="my_info_name main_tit tx--white">
+                                    <!-- 닉네임은 최대10자 -->
+                                    <span onclick>
+                                        <em>닉네임은최대10자로</em>님
+                                    </span>
+                                    <div class="arrow_area h_auto w_auto">
+                                        <i class="ic ic_arrow_L_gr rotate_270"></i>
+                                    </div>
+                                </h1>      
+                            </a>
+                        </div>
+                        <div class="profile_img big">
+                            <!-- 기본이미지 -->
+                            <img src="../img/temp/default_img.png" alt="profile_img"/>
+                        </div>
+                        <div class="d_flex gap6">
+                            <div class="badge badge--white-text">세이빙형</div>
+                            <p class="regular_text tx--blue2 semibold">FLEX BLUE 멤버십을 이용중이세요</p>
+                        </div>       
+                    </div>
+                    <div class="p_side_20 mt_30">
+                        <!-- 출석체크 전 -->
+                        <!-- <button class="btn btn--lg btn--white-stroke btn--full content_between">
+                            <span class="d_flex align_center">
+                                <i class="ic ic_check_wh mr_8"></i>
+                                눌러서 출석체크 하세요
+                            </span>
+                            <em>+70 KROWN</em>
+                        </button>     -->
+                        <!-- 출석체크 후 -->
+                        <button class="btn btn--lg btn--stroke-primary2 btn--full content_between">
+                            <span class="d_flex align_center">
+                                <i class="ic ic_check mr_8"></i>
+                                이번주 출석체크 완료!
+                            </span>
+                            <em>+70 KROWN</em>
+                        </button>   
+                    </div> 
+                    <!-- 세이빙 현황 start -->
+                    <div class="section_in mt_60 p_side_20">
+                        <h1 class="main_tit tx--white tx--left">나의 세이빙 현황</h1>
+                    </div>
+                    <div class="roulette_box mt_30">
+                        <div class="roulette_text">
+                            <p class="regular_text tx--center tx--blue2 semibold">26주차 동안 세이빙한</p>
+                            <h1 class="main_tit tx--white pb_30"><span class="huge_tit tx--white pr_4">13</span>KCT</h1>
+                            <p class="regular_text tx--white semibold">돌려받기까지 26주차 남았어요!</p>
+                        </div>  
+                        <img src="../img/temp/saving_status.png" alt='saving_status'/>
+                    </div>
+
+
+                </section>
+            </main>
+            <!-- // Footer -->
+            <!-- <footer id="footer" class="footer main_footer"></footer> -->
+            <!-- // Tab Bar -->
+            <!-- <div id="tabbar" class="tabbar"></div> -->
+                
+            <div id="safe_area_bottom"></div>
+        </div>
+        
+        
+    
+        <!-- //js script -->
+        <script src="../js/libs/jquery-3.6.0.min.js"></script>
+        <script src="../js/libs/swiper.min.js"></script>
+        <script type="text/javascript" src="../js/common.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $(".sub_header").load("../views/sub_header.html");
+                $(".main_footer").load("../views/main_footer.html");
+                $(".tabbar").load("../views/tabbar.html");
+            });
+        </script>
+        <!-- //js script -->
+
+    </body>
+</html> 

@@ -1,0 +1,52 @@
+<div id="safe_area_top" class="status_bar"></div>
+<div class="navigation_bar main_top">
+    <div class="header_logo" onclick="location.href='../views/main.html'">
+        <img src="../img/main_logo.png" alt="main_logo"/>
+    </div>
+    <div class="nav_icon_box">
+        <i class="ic ic_global_wh"onclick="location.href='../setting/language.html'"></i>
+        <i class="ic ic_mypage_wh"onclick="location.href='../mypage/mypage_main.html'"></i>
+        <i class="ic ic_hamburger_wh" onclick="location.href='../menu_all/menu_all_ver2.html'"> </i>
+    </div>
+</div>
+
+
+<script>
+// 스크롤 시 header fade-in
+$(function(){
+    $(document).on('scroll', function(){
+        if($(window).scrollTop() > 0){
+            $(".main_header").removeClass("deactive");
+            $(".main_header").addClass("active");
+        }else{
+            $(".main_header").removeClass("active");
+            $(".main_header").addClass("deactive");
+        }
+    })
+
+});
+
+
+
+// headerpin.js
+// $(function () {
+//     var wind = $(window),
+//         header = $('.main_header'),
+//         headerOffsetTop = header.offset().top;
+//         console.log(headerOffsetTop);
+
+//         /*window에 스크롤이 생기면 */
+//         wind.scroll(function(){
+//            //스크롤 양 > 화면상단에서의 거리 
+//            if(wind.scrollTop() >= headerOffsetTop){
+//                 header.addClass('active');
+//            }else{ 
+//                 header.removeClass('active')
+//            }
+//         })
+
+// });
+
+
+
+</script>
